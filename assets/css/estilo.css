@@ -1,0 +1,122 @@
+/* RESET GERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-image: url('../images/imagem_fundo.webp');
+    background-size: cover;
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fundo h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    text-shadow: 3px 3px red;
+    position: absolute;
+    top: 5%;
+
+
+}
+
+.calculadora {
+    background-color: green;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #fff;
+
+}
+
+.calculadora h2 {
+    color: #8302b6bd;
+    text-align: center;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+#resultado {
+    background-color: #fff;
+    height: 2.5rem;
+    text-align: right;
+    padding: 5px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin: 1rem auto;
+    width: 215px;
+    overflow-x: hidden;
+}
+
+button {
+    width: 3rem;
+    height: 3rem;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 3px;
+    box-shadow: 3px 3px #333a77;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ffcfff;
+}
+
+button:active {
+    font-size: 19px;
+    box-shadow: 1px 1px #333a77;
+}
+
+td[rowspan="2"] button {
+    height: 108px;
+}
+
+td[colspan="2"] button {
+    width: 106px;
+}
+
+/* @media (max-width: 500px) {
+    .calculadora{
+        width: 90vw;
+        height: 80%;
+    }
+
+    .calculadora h2 {
+        font-size: 2.5rem;
+    }
+
+    #resultado {
+        height: 3rem;
+        padding:  0.5rem;
+        font-size: 2rem;
+        width: 300px;
+    }
+
+    table{
+        margin: 0 auto;
+    }
+
+    button {
+        width: 4rem;
+        height: 4rem;
+        font-size: 2rem;
+        margin: 300px;
+    }
+
+    td[rowspan="2"] button{
+        height: 136px;
+    }
+
+    td[colspan="2"] button {
+        width: 136px;
+    }
+    
+} */
